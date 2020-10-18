@@ -1,11 +1,11 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import dashboard from '../pages/dashboard';
+import home from '../pages/home';
 
 const Routes = () => (
     <Switch>
-        <Route path="/dashboard" component={dashboard}/>
+        <Route path="/" component={home}/>
     </Switch>
 )
 

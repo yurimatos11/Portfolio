@@ -12,16 +12,21 @@ export const Header = styled.div`
         background: #fff;
         display: flex;
         justify-content: center;
+        
+        img{
+            height: 6.0rem;
+        }
     }
 
     ul{
-        border-top: 2px solid #fff;
+        border-top: solid red;
+        border-bottom: solid red;
         display: flex; 
         justify-content: center;
         a{
             color: #fff;
             text-decoration: none;
-            padding: 0.8rem 1.5rem;
+            padding: 0.6rem 1.5rem;
             font-size: 1.2rem;
             font-weight: bold;
         }
@@ -33,17 +38,18 @@ export const Header = styled.div`
 `;
 
 export const Content = styled.div`
-    .press{
+    .submit{
         display: flex;
         justify-content: center;
             input{
-                border-top: solid;
+                display: flex;
+                justify-content: center;
+                border-top: solid; 
                 border-bottom: none;
                 border-right: none;
                 border-left: none;
-                border-radius: 5px;
-                height: 2.5rem;
-                width: 18rem;
+                height: 2.2rem;
+                width: 50%;
                 color: #000;
                 text-align: center;
                 font-size: 1.2rem;
@@ -55,31 +61,32 @@ export const Content = styled.div`
                 color: #000;
                 font-size: 1.2rem;
                 font-weight: bold;
-            }
-
-            button{
-                height: 2.2rem;
-                width: 5.0rem;
-                color: #fff;
-                background: #000;
-                border-radius: 15px;
-                outline: 0;
-            }
-
-            button:hover{
-                color: red;
-            }
+            }     
     }
 
-    .boa3{
-        display: flex;
-        justify-content: center;
-        margin-top: 2.0rem;
-        
+    .press{
+        height: 2.2rem;
+        width: 3.8rem;
+        color: #fff;
+        background: #000;
+        border-radius: 15px;
+        outline: 0;
+
+       
+    }
+    .press:hover{
+        color: red;
+    }
+    .carousel-inner{
+        margin-top: 1.5rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }   
 
     small{
         display: flex;
         justify-content: center;
     }
+
 `;
