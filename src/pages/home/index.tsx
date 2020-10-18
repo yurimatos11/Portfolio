@@ -8,7 +8,7 @@ import Carousel3 from '../../img/images3.jpeg';
 
 import { Container, Header, Content} from './styles';
 
-const dashboard = () => {
+const home = () => {
     return (
         <>
             <Container>
@@ -17,9 +17,9 @@ const dashboard = () => {
                         <img src={Logo} alt="Logo"/>
                     </div>
                     <ul>
-                        <a href="">Home</a>
-                        <a href="">About</a>
-                        <a href="">Contact</a>
+                        <a href="home">Home</a>
+                        <a href="about" >About</a>
+                        <a href="contact">Contact</a>
                     </ul>
                 </Header>
                 <Content>
@@ -50,4 +50,4 @@ const dashboard = () => {
 };
 
 
-export default dashboard;
+export default home;
