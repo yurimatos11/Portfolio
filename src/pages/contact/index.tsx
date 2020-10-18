@@ -11,14 +11,18 @@ const contact = () => {
         <>
             <Container>
                 <Header>
-                    <div className="logo">
-                        <img src={Logo} alt="Logo"/>
-                    </div>
-                    <ul>
-                        <a href="home">Home</a>
-                        <a href="about">About</a>
-                        <a href="contact">Contact</a>
-                    </ul>
+                    <div className="menu">
+                            <div className="logo">
+                                <img src={Logo} alt="Logo"/>
+                            </div>
+                            <div className="lista">
+                                <ul>
+                                    <a href="home">Home</a>
+                                    <a href="about" >About</a>
+                                    <a href="contact">Contact</a>
+                                </ul>
+                            </div>
+                        </div>
                 </Header>
                 <Content>
                 <div className="card">

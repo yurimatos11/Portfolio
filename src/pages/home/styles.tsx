@@ -7,32 +7,66 @@ export const  Container = styled.div`
 `;
 
 export const Header = styled.div`
-    background: #000;
-    .logo{
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        
-        img{
-            height: 6.0rem;
+    .menu{
+        background: #000;
+
+        .logo{
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            
+            img{
+                height: 6.0rem;
+            }
+        }
+
+        .lista{
+            ul{
+                border-top: solid red;
+                border-bottom: solid red;
+                display: flex; 
+                justify-content: center;
+            }
+            
+            a{
+                color: #fff;
+                text-decoration: none;
+                padding: 0.6rem 1.5rem;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+            
+            a:hover{
+                color: red;
+            }
         }
     }
 
-    ul{
-        border-top: solid red;
-        border-bottom: solid red;
-        display: flex; 
-        justify-content: center;
-        a{
-            color: #fff;
-            text-decoration: none;
-            padding: 0.6rem 1.5rem;
-            font-size: 1.2rem;
-            font-weight: bold;
+    @media (min-width: 500px){
+        .menu{
+            background: #fff;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: solid red;
+
+        .logo{
+            img{
+                height: 100px;
+            }
         }
-        
-        a:hover{
-            color: red;
+
+        .lista{
+            ul{
+                border-top: none;
+                border-bottom: none;
+                margin-top: 40px;
+            }
+            
+            a{
+                color: #000;
+                padding: 0 15px;
+                font-size: 20px;
+            }
         }
     }
 `;
@@ -87,6 +121,44 @@ export const Content = styled.div`
     small{
         display: flex;
         justify-content: center;
+    }
+
+    @media (min-width: 500px){
+        .submit{
+            margin-top: 0px;
+            background: #000;
+            padding: 10px 0;
+            input{
+                border-top: none red; 
+                border-radius: 20px;
+                color: #000;
+                width: 300px;
+                font-size: 20px;
+                font-weight: bold;
+                margin-right: 30px;
+            }
+
+            input::placeholder{ 
+                color: #000;
+                font-size: 15px;
+                font-weight: bold;
+            }     
+    }
+
+    .press{
+        height: 35px;
+        width: 60px;
+        color: #fff;
+        background: #000;
+
+       
+    }
+
+    .carousel-inner{
+        margin-top: 30px;
+        width: 80%;
+    }   
+
     }
 
 `;
