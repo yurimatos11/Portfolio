@@ -6,7 +6,7 @@ import Yuri from '../../img/yuri.jpeg'
 
 import { Container, Header, Content} from './styles';
 
-const home = () => {
+const about = () => {
     return (
         <>
             <Container>
@@ -22,9 +22,10 @@ const home = () => {
                 </Header>
                 <Content>
                    <div className="about">
-                       <h1>
-                           Hello World
-                       </h1>
+                       <strong>
+                            I decided to create a responsive portfolio, to start my repository here on github. Hope you like it...
+                            I'll leave it here without much for now, let's say it's in production kkkkkkk.
+                       </strong>
                    </div>
 
                 </Content>
@@ -34,4 +35,4 @@ const home = () => {
 };
 
 
-export default home;
+export default about;

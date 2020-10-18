@@ -41,10 +41,11 @@ export const Content = styled.div`
     .about{
         display: flex;
         justify-content: center;
-        h1{
-            font-size: 2.0rem;
+        strong{
+            font-size: 1.5rem;
             font-weight: bold;
             margin-top: 7.0rem;
+            color: #000;
         }
     }
 

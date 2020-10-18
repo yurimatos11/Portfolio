@@ -6,7 +6,7 @@ import Yuri from '../../img/yuri.jpeg'
 
 import { Container, Header, Content} from './styles';
 
-const home = () => {
+const contact = () => {
     return (
         <>
             <Container>
@@ -27,9 +27,9 @@ const home = () => {
                         <p>I'll leave it here in the portfolio, but I won't be stuffing sausage...</p>
                    </div>
                     <div className="socias">
-                        <i className="fab fa-linkedin-in"></i>
-                        <i className="fab fa-github"></i>
-                        <i className="fab fa-whatsapp"></i>
+                        <a href="https://www.linkedin.com/in/yuri-matos-82954717a/"><i className="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/yurimatos11"><i className="fab fa-github"></i></a>
+                        <a href="https://api.whatsapp.com/"><i className="fab fa-whatsapp"></i></a>
                     </div>
                 </Content>
             </Container>
@@ -38,4 +38,4 @@ const home = () => {
 };
 
 
-export default home;
+export default contact;

@@ -67,4 +67,22 @@ export const Content = styled.div`
         }
     }
 
+    .socias{
+        display: flex;
+        justify-content: center;
+        border-top: solid red;
+        .fa-linkedin-in{
+            width: 2.0rem;
+        }
+
+        .fa-github{
+            width: 2.0rem; 
+            color: #000;
+        }
+        
+        .fa-whatsapp{
+            width: 2.0rem; 
+            color: green;
+        }
+    }
 `;
