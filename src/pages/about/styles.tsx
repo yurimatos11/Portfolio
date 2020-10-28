@@ -89,4 +89,8 @@ export const Content = styled.div`
         }
     }
 
+    @media (min-width: 500px){
+        
+    }
+
 `;

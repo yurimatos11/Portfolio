@@ -23,7 +23,7 @@ export const Header = styled.div`
         .lista{
             ul{
                 border-top: solid red;
-                border-bottom: solid red;
+                border-bottom: none;
                 display: flex; 
                 justify-content: center;
             }

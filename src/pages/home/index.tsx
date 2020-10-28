@@ -28,7 +28,7 @@ const home = () => {
                 </Header>
                 <Content>
                     <div className="submit">
-                        <input type="text" placeholder="Type here"/>
+                        <input type="text" placeholder="Type Here"/>
                         <button className="press">Press</button>
                     </div>
 

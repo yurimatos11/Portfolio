@@ -2,8 +2,6 @@ import React from 'react';
 
 import Logo from '../../img/gitYuri.png';
 
-import Yuri from '../../img/yuri.jpeg'
-
 import { Container, Header, Content} from './styles';
 
 const about = () => {
