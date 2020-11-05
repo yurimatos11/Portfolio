@@ -1,29 +1,13 @@
 import React from 'react';
 
-import Logo from '../../img/gitYuri.png';
-
 import Yuri from '../../img/yuri.jpeg'
 
-import { Container, Header, Content} from './styles';
+import { Container, Content} from './styles';
 
 const contact = () => {
     return (
         <>
             <Container>
-                <Header>
-                    <div className="menu">
-                            <div className="logo">
-                                <img src={Logo} alt="Logo"/>
-                            </div>
-                            <div className="lista">
-                                <ul>
-                                    <a href="home">Home</a>
-                                    <a href="about" >About</a>
-                                    <a href="contact">Contact</a>
-                                </ul>
-                            </div>
-                        </div>
-                </Header>
                 <Content>
                 <div className="card">
                         <img src={Yuri} alt="eu"/>
