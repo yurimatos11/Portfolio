@@ -12,6 +12,7 @@ export const Content = styled.div`
         justify-content: center;
         align-items: center;
         border: none;
+        margin-top: 20%;
 
         img{
             width: 12rem;
@@ -31,8 +32,11 @@ export const Content = styled.div`
         }
 
         p{
-            margin-top: 4.0rem;
+            margin-top: 30%;
             border-top: solid red;
+            width: 100%;
+            display: flex;
+            justify-content: center;
         }
     }
 
@@ -57,14 +61,14 @@ export const Content = styled.div`
 
     @media (min-width: 500px){
         .card{
-            margin-top: 30px;
+            margin-top: 5%;
 
         strong{
             font-size: 15px;
         }
 
         p{
-            margin-top: 80px;
+            margin-top: 10%;
         }
     }
 

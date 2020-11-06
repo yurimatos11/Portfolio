@@ -9,7 +9,7 @@ const contact = () => {
         <>
             <Container>
                 <Content>
-                <div className="card">
+                    <div className="card">
                         <img src={Yuri} alt="eu"/>
                         <strong>random photo even</strong>
                         <p>I'll leave it here in the portfolio, but I won't be stuffing sausage...</p>
