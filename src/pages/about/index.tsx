@@ -27,8 +27,11 @@ const about = () => {
                             <p>ReactJS</p>
                             <p>80%</p>
                         </div>
+                        <div className="photoshop">
+                            <p>Photoshop</p>
+                            <p>75%</p>
+                        </div>
                    </div>
-
                 </Content>
             </Container>
         </>

@@ -8,11 +8,10 @@ export const  Container = styled.div`
 
 export const Content = styled.div`
     .about{
-        display: ;
-        justify-content: ;
         strong{
-            margin-left: 1.5rem;
-            font-size: 1.2rem;
+            display: flex;
+            justify-content: center;
+            font-size: 1.3rem;
             font-weight: bold;
             margin-top: 0;
             color: #000;
@@ -81,10 +80,30 @@ export const Content = styled.div`
                 margin-right: .5rem;
             }
         }
+        .photoshop{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1.5rem;
+            background: #000;
+            color: #fff;
+            width: 75%;
+            height: 2.5rem;
+            border: 3px solid red;
+            p{
+                margin-top: .3rem;
+                font-weight: bold;
+                margin-left: .5rem;
+                margin-right: .5rem;
+            }
+        }
     }
 
     @media (min-width: 500px){
-        
+        .about{
+            strong{
+            font-size: 30px;
+        }
+        }
     }
 
 `;
