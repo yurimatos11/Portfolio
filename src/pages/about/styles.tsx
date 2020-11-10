@@ -13,18 +13,19 @@ export const Content = styled.div`
             justify-content: center;
             font-size: 1.3rem;
             font-weight: bold;
-            margin-top: 0;
+            margin-top: 10;
             color: #000;
         }
         .html{
             display: flex;
             justify-content: space-between;
-            margin-top: 1.5rem;
+            margin-top: 4.5rem;
             background: #000;
             color: #fff;
             width: 99%;
             height: 2.5rem;
             border: 3px solid red;
+            border-left: none;
             p{
                 margin-top: .3rem;
                 font-weight: bold;
@@ -41,6 +42,7 @@ export const Content = styled.div`
             width: 99%;
             height: 2.5rem;
             border: 3px solid red;
+            border-left: none;
             p{
                 margin-top: .3rem;
                 font-weight: bold;
@@ -57,6 +59,7 @@ export const Content = styled.div`
             width: 70%;
             height: 2.5rem;
             border: 3px solid red;
+            border-left: none;
             p{
                 margin-top: .3rem;
                 font-weight: bold;
@@ -73,6 +76,7 @@ export const Content = styled.div`
             width: 80%;
             height: 2.5rem;
             border: 3px solid red;
+            border-left: none;
             p{
                 margin-top: .3rem;
                 font-weight: bold;
@@ -89,6 +93,7 @@ export const Content = styled.div`
             width: 75%;
             height: 2.5rem;
             border: 3px solid red;
+            border-left: none;
             p{
                 margin-top: .3rem;
                 font-weight: bold;

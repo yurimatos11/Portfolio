@@ -1,13 +1,11 @@
 import React from 'react';
 
-
 import { Container, Content} from './styles';
 
 const about = () => {
     return (
         <>
             <Container>
-                
                 <Content>
                    <div className="about">
                         <strong>Here I will talk about my qualities ...</strong>
