@@ -12,80 +12,59 @@ export const Content = styled.div`
         justify-content: center;
         align-items: center;
         border: none;
-        margin-top: 20%;
+        margin-top: 2rem;
 
         img{
             width: 12rem;
         }
 
         strong{
-            border-top: solid red;
-            border-bottom: solid red;
-            border-right: none;
-            border-left: none;
-            background-color: #000;
-            color: #fff;
+            color: #000;
             width: 9.6rem;
             font-size: 0.8rem;
             display: flex;
             justify-content: center;
         }
-
-        p{
-            margin-top: 30%;
-            border-top: solid red;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-        }
     }
 
-    .socias{
-        display: flex;
-        justify-content: center;
-        border-top: solid red;
-        .fa-linkedin-in{
-            width: 2.0rem;
-        }
-
-        .fa-github{
-            width: 2.0rem; 
+    .contact{
+        p{
+            font-weight: bold;
             color: #000;
+            margin: 1rem;
+            font-size: .8rem
         }
-        
-        .fa-whatsapp{
-            width: 2.0rem; 
-            color: green;
+        a{
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            color: #000;
+            &:hover{
+                color: red;
+                transition: 1s;
+                font-weight: bold;
+            }
+        }
+        .gmail{
+            margin-bottom: 2.5rem;
         }
     }
 
     @media (min-width: 500px){
         .card{
-            margin-top: 5%;
-
         strong{
             font-size: 15px;
         }
-
+    }
+    .contact{
         p{
-            margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+        }
+        .gmail{
+            margin-bottom: 35px;
         }
     }
-
-    .socias{
-
-        .fa-linkedin-in{
-            width: 50px;
-        }
-
-        .fa-github{
-            width: 50px; 
-        }
-        
-        .fa-whatsapp{
-            width: 50px; 
-        }
-    }
-
-    }
+}
 `;

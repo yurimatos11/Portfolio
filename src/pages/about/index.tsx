@@ -8,7 +8,13 @@ const about = () => {
             <Container>
                 <Content>
                    <div className="about">
-                        <strong>Here I will talk about my qualities ...</strong>
+                        <div className="txt">
+                            <h1>Who am I?</h1>
+                                <p>My name is Yuri Matos, and I'm going to talk a little bit about myself, I'm currently studying computer science with training for 12/2022, my main qualities in web development are: ReactJs, HTML, CSS, JS, Bootstrap, Figma, TypeScript ... I'm always looking to qualify and learn more to become a good front-end developer.
+                                I have other qualities like photoshop, office package and Linux.
+                                There's a lot about me to talk about, but I won't say everything here, if you want to know more about me go to the "Contacts" tab, to contact me ...</p>
+                        </div>
+                        <h1>Here I will talk about my qualities ...</h1>
                         <div className="html">
                             <p>HTML</p>
                             <p>99%</p>

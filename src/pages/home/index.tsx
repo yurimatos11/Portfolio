@@ -43,6 +43,14 @@ const home = () => {
                     </a>
                     </div>
                     <small>Ignores randomness and bad image</small> 
+                    <div className="props">
+                        <h1>Because I decided to create!</h1>
+                        <p>I decided to create my <i>Portfolio</i>to talk a little about myself, and show my qualities...</p>
+                    </div>
+                    <div className="tools">
+                        <h1>What tools did I use?</h1>
+                        <p>For the creation of my Portfolio I used some tools, Font Awesome for icons, the bootstrap for carousel, and last but not least the translator. Yes I am not fluent in English, I used the translator to help me with some translations...</p>
+                    </div>
                 </Content>
             </Container>
         </>

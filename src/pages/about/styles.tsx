@@ -8,18 +8,30 @@ export const  Container = styled.div`
 
 export const Content = styled.div`
     .about{
-        strong{
-            display: flex;
-            justify-content: center;
+        margin-bottom: 1rem;
+        .txt{
+            color: #000;
+            h1{
+                font-size: 2rem;
+                margin: 1.5rem 1rem;
+                font-weight: bold;
+            }
+            p{
+                color: #000;
+                margin: 1rem 2rem;
+            }
+        }
+       
+        h1{
+            margin: 1.5rem 1rem;
             font-size: 1.3rem;
             font-weight: bold;
-            margin-top: 10;
             color: #000;
         }
         .html{
             display: flex;
             justify-content: space-between;
-            margin-top: 4.5rem;
+            margin-top: 2rem;
             background: #000;
             color: #fff;
             width: 99%;
@@ -105,7 +117,7 @@ export const Content = styled.div`
 
     @media (min-width: 500px){
         .about{
-            strong{
+            h1{
             font-size: 30px;
         }
         }

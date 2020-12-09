@@ -58,6 +58,44 @@ export const Content = styled.div`
         justify-content: center;
     }
 
+    .props{
+        border-top: 8px #ff0000 solid;
+        background: #000000;
+        margin-top: 1rem;
+        h1{
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: bold;
+            padding: .8rem;
+        }
+        p{
+            color: #fff;
+            font-size: .8rem;
+            padding: .8rem;
+        }
+    }
+    
+    .tools{
+        border-top: 8px #ff0000 solid;
+        border-bottom: 8px #ff0000 solid;
+        margin-top: -16px;
+        h1{
+            color: #000;
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            padding: .8rem;
+        }
+        p{
+            color: #000;
+            font-size: .8rem;
+            margin: .8rem;
+        }
+    }
+
     @media (min-width: 500px){
         .submit{
             margin-top: 0px;
@@ -93,7 +131,5 @@ export const Content = styled.div`
         margin-top: 30px;
         width: 80%;
     }   
-
     }
-
 `;
